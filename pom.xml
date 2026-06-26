@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.apache.calcite.avatica</groupId>
             <artifactId>avatica-core</artifactId>
-            <version>1.22.0</version>
+            <version>1.28.0</version>
         </dependency>
 
         <!-- CVE-2022-1471 (SnakeYAML RCE) - CVSS 8.3 - HIGH - EPSS 99.6% -->
