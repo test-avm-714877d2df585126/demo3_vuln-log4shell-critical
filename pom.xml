@@ -50,5 +50,12 @@
             <artifactId>avatica-core</artifactId>
             <version>1.22.0</version>
         </dependency>
+
+        <!-- CVE-2022-1471 (SnakeYAML RCE) - CVSS 8.3 - HIGH - EPSS 99.6% -->
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.30</version>
+        </dependency>
     </dependencies>
 </project>
